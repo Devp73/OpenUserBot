@@ -1,13 +1,14 @@
 import coffeehouse
 import asyncio
+from userbot import LYDIA_API_KEY
 from telethon import events
 
 # Non-SQL Mode
 ACC_LYDIA = {}
 SESSION_ID = {}
 
-if Var.LYDIA_API_KEY:
-    api_key = Var.LYDIA_API_KEY
+if LYDIA_API_KEY:
+    api_key = LYDIA_API_KEY
     api_client = coffeehouse.API(api_key)
 
 @register(pattern="^.repcf", outgoing=True)
