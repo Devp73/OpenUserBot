@@ -49,6 +49,11 @@
       "description": "Get your own APPID (API key)from https://api.openweathermap.org/data/2.5/weather",
       "required": false
     },
+    "LYDIA_API_KEY": {
+      "description": "Needed for Lydia AI. Follow https://telegra.ph/Lydia-09-05 to get your API.",
+      "value": "",
+      "required": false
+    },
     "BOTLOG": {
       "description": "Incase you want to turn off logging, put this to false",
       "value": "False"
